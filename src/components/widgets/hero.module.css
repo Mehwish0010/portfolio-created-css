@@ -1,0 +1,68 @@
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .heroContent {
+    flex: 1;
+  }
+  
+  .heroContent h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #333;
+    font-weight: bolder;
+    margin-left: 90px;
+  }
+  
+  .heroContent p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 1rem 0;
+    font-weight: bold;
+  }
+  
+  .ctaButton {
+    padding: 0.75rem 1.5rem;
+    background-color: #7e7f81;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 190px;
+  }
+  
+  .heroImage {
+    flex: 1;
+    text-align: center;
+    max-width: auto;
+  }
+  
+  .heroImage img {
+    max-width: 100%;
+    height: 200%;
+    border-radius: 10px;}
+    .introSection {
+      display: flex;
+      align-items: center;
+      padding: 2rem;
+      background-color: #f8f9fa;}
+ 
+  
+  
+  
+  
+  .introText {
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .highlight {
+    color:coral;
+    font-weight: bold;
+  }
+  

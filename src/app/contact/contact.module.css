@@ -1,0 +1,74 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .contactSection {
+    padding: 6rem;
+    text-align: center;
+    color: #333;
+    background-color: #e9e7e7;
+    animation: fadeIn 0.8s ease-in-out;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #202224;
+    margin-bottom: 4rem;
+    animation: fadeIn 0.8s ease-in-out;
+    font-weight: bolder;
+  }
+  
+  .intro {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    font-weight: bolder;
+    animation: fadeIn 0.8s ease-in-out;
+    animation-delay: 0.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    margin-top: 20px;
+  }
+  
+  .contactLinks {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    animation: fadeIn 0.8s ease-in-out;
+    animation-delay: 0.4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  
+  .contactLink {
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #6e7073;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 112, 243, 0.2);
+  }
+  
+  .contactLink:hover {
+    background-color: rgb(216, 144, 62) ;
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 91, 181, 0.2);
+  }
+  
+  
