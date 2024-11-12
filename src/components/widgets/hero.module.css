@@ -1,68 +1,110 @@
 .hero {
-    display: flex;
-    align-items: center;
-    padding: 2rem;
-    background-color: #f9f9f9;
-    margin-left: 40px;
-    margin-right: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  margin: 0 40px;
+}
+
+.heroContent {
+  flex: 1;
+  text-align: center;
+}
+
+.heroContent h1 {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+  color: #333;
+  font-weight: bolder;
+}
+
+.heroContent p {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.ctaButton {
+  padding: 0.75rem 1.5rem;
+  background-color: #7e7f81;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.heroImage {
+  flex: 1;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.heroImage img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.introSection {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.introText {
+  max-width: 600px;
+  text-align: center;
+}
+
+.highlight {
+  color: coral;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0 20px;
   }
-  
-  .heroContent {
-    flex: 1;
-  }
-  
+
   .heroContent h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 0;
-    color: #333;
-    font-weight: bolder;
-    margin-left: 90px;
   }
-  
+
   .heroContent p {
-    font-size: 1.2rem;
-    color: #666;
-    margin: 1rem 0;
-    font-weight: bold;
+    font-size: 1rem;
   }
-  
+
   .ctaButton {
-    padding: 0.75rem 1.5rem;
-    background-color: #7e7f81;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-left: 190px;
+    margin: 1rem 0;
   }
-  
-  .heroImage {
-    flex: 1;
-    text-align: center;
-    max-width: auto;
-  }
-  
+
   .heroImage img {
-    max-width: 100%;
-    height: 200%;
-    border-radius: 10px;}
-    .introSection {
-      display: flex;
-      align-items: center;
-      padding: 2rem;
-      background-color: #f8f9fa;}
- 
-  
-  
-  
-  
-  .introText {
-    max-width: 600px;
-    text-align: center;
+    max-width: 90%;
+    margin-top: 1rem;
   }
-  
-  .highlight {
-    color:coral;
-    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .heroContent h1 {
+    font-size: 1.5rem;
   }
-  
+
+  .heroContent p {
+    font-size: 0.9rem;
+  }
+
+  .ctaButton {
+    padding: 0.5rem 1rem;
+  }
+}

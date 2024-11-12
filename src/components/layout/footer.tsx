@@ -14,10 +14,10 @@ const Footer = () => {
           </a>
         </div>
         <div className={styles.socialLinks}>
-          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+          <a href="www.linkedin.com/in/mehwish-fatima-816198217" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
             LinkedIn
           </a>
-          <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+          <a href="https://github.com/Mehwish0010" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
             GitHub
           </a>
           <a href="https://twitter.com/your-twitter" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>

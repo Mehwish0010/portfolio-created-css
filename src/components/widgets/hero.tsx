@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './hero.module.css';
-import Pic from "@/components/assets/images/pf2.jpg"
+import Pic from "@/components/assets/images/pfchat.webp"
   import Image from 'next/image';
 
 const Hero: React.FC = () => {
