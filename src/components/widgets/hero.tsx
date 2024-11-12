@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
         </p>
       </div>
     </div>
-        <a href="#projects" className={styles.ctaButton}>View My Work</a>
+        <a href="/projects" className={styles.ctaButton}>View My Work</a>
       </div>
       <div className={styles.heroImage}>
         <Image src={Pic} alt="A representation of my work" />
