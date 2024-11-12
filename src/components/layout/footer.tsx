@@ -2,6 +2,7 @@
 
 import React from 'react';
 import styles from './footer.module.css';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
           </a>
         </div>
         <div className={styles.socialLinks}>
-          <a href="www.linkedin.com/in/mehwish-fatima-816198217" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+        <a href="www.linkedin.com/in/mehwish-fatima-816198217" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
             LinkedIn
           </a>
           <a href="https://github.com/Mehwish0010" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>

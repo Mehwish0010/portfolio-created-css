@@ -14,13 +14,13 @@ const Contact = () => {
       </p>
       
       <div className={styles.contactLinks}>
-        <a href="mailto:your-email@example.com" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
+        <a href="mailto:www.mehwishsheikh0010sheikh@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
           Email
         </a>
-        <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
+        <a href="www.linkedin.com/in/mehwish-fatima-816198217" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
           LinkedIn
         </a>
-        <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
+        <a href="https://github.com/Mehwish0010" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
           GitHub
         </a>
         <a href="https://twitter.com/your-twitter" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
