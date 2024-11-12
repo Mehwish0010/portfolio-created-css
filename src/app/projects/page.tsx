@@ -19,12 +19,12 @@ const Projects = () => {
     [
       {
         title: 'E-commerce App',
-        description: 'A fully functional e-commerce app with product listing and cart features.',
+        description: 'A fully functional e-commerce app of clothing.',
         link: 'http://nextjs-assignment-6xmj.vercel.app',
       },
       {
         title: 'E-commerce-Website',
-        description: 'A dashboard providing real-time weather information built with React.',
+        description: 'An e-commerce app of ice-cream shop .',
         link: 'https://css-website-alpha.vercel.app',
       },
     ],
